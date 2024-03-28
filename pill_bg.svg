@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="720" version="1.1" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100%" height="100%" fill="#375F69" />
+    
+        <g transform="translate(-100 -50) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FFA800" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FFA800" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FFA800" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FFA800" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FFE400" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FFE400" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FFE400" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FFE400" />
+        </g>
+        <g transform="translate(-25 -50) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FF4321" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FFA800" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FF4321" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FFA800" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FF4321" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FFA800" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FF4321" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FFA800" />
+        </g>
+        <g transform="translate(50 -50) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FF4321" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FF4321" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FF4321" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FF4321" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FF4321" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FF4321" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FF4321" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FF4321" />
+        </g>
+        <g transform="translate(125 -50) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#12E895" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#1AAACF" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#12E895" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#1AAACF" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#12E895" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#1AAACF" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#12E895" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#1AAACF" />
+        </g>
+        <g transform="translate(200 -50) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#23E813" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#23E813" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#23E813" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#23E813" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#23E813" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#23E813" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#23E813" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#23E813" />
+        </g>
+        <g transform="translate(275 -50) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#1AAACF" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FFE400" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#1AAACF" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FFE400" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#1AAACF" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FFE400" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#1AAACF" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FFE400" />
+        </g>
+        <g transform="translate(-100 100) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FFA800" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#23E813" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FFA800" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#23E813" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FFA800" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#23E813" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FFA800" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#23E813" />
+        </g>
+        <g transform="translate(-25 100) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FF4321" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FFA800" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FF4321" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FFA800" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FF2135" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FFE400" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FF2135" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FFE400" />
+        </g>
+        <g transform="translate(50 100) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FF4321" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#1B72CF" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FF4321" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#1B72CF" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FF2135" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#1AAACF" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FF2135" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#1AAACF" />
+        </g>
+        <g transform="translate(125 100) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#1B72CF" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#23E813" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#1B72CF" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#23E813" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#1B72CF" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#23E813" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#1B72CF" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#23E813" />
+        </g>
+        <g transform="translate(200 100) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FFA800" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FF4321" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FFA800" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FF4321" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FFE400" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FF2135" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FFE400" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FF2135" />
+        </g>
+        <g transform="translate(275 100) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FF4321" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#1B72CF" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FF4321" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#1B72CF" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FF2135" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#1AAACF" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FF2135" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#1AAACF" />
+        </g>
+        <g transform="translate(-100 250) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FF2135" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#1AAACF" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FF2135" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#1AAACF" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FF4321" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#1B72CF" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FF4321" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#1B72CF" />
+        </g>
+        <g transform="translate(-25 250) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#1AAACF" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FFE400" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#1AAACF" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FFE400" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#1B72CF" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FFA800" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#1B72CF" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FFA800" />
+        </g>
+        <g transform="translate(50 250) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FFE400" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#1AAACF" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FFE400" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#1AAACF" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FFA800" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#1B72CF" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FFA800" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#1B72CF" />
+        </g>
+        <g transform="translate(125 250) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#1B72CF" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FF4321" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#1B72CF" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FF4321" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#1AAACF" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FF2135" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#1AAACF" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FF2135" />
+        </g>
+        <g transform="translate(200 250) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#23E813" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FFA800" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#23E813" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FFA800" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#23E813" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FFA800" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#23E813" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FFA800" />
+        </g>
+        <g transform="translate(275 250) scale(.5)">
+            <circle cx="172.5" cy="97.5" r="52.5" fill="#FFE400" />
+            <circle cx="172.5" cy="262.5" r="52.5" fill="#FF2135" />
+            <rect x="120" y="97.5" width="105" height="82.5" fill="#FFE400" />
+            <rect x="120" y="180" width="105" height="82.5" fill="#FF2135" />
+            <circle cx="168.75" cy="93.75" r="48.75" fill="#FFA800" />
+            <circle cx="168.75" cy="266.25" r="48.75" fill="#FF4321" />
+            <rect x="120" y="97.5" width="97.5" height="82.5" fill="#FFA800" />
+            <rect x="120" y="180" width="97.5" height="82.5" fill="#FF4321" />
+        </g>
+
+</svg>
