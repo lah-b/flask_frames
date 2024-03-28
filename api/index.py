@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
+    print("hello world!!!!")
     # print(f"Is web3 connected {is_w3_connected()}")
     return render_template("homePage.html")
 
