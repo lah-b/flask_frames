@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 
 from .web3_test import is_w3_connected
+from .web3_qn import get_tx_data
+from .abi import abi
 
 app = Flask(__name__)
 
@@ -18,19 +20,19 @@ def about():
 
 @app.route("/mint-post", methods=["POST"])
 def mint_post():
-    post_data = request.json  # Assuming JSON data is posted
-    # Process the post_data
-    render_string = post_data["name"]
+    post_data = request.json
+    user_acct = post_data["interactor"]
+    tx_data = get_tx_data(user_acct)
     data = {
         "chainId": "eip155:10",
         "method": "eth_sendTransaction",
         "params": {
-            "to": "0x00000000fcCe7f938e7aE6D3c335bD6a1a7c593D",
-            "data": render_string,
-            "value": "984316556204476",
+            "abi": abi(),
+            "to": "0xD09d72031Ce8212efD8928F1A3814E7F8da0fDfD",
+            "data": tx_data,
         },
     }
-    return jsonify({"name": f"your name is {render_string}"}), 200
+    return jsonify(data), 200
 
 
 @app.route("/mint-post-callback", methods=["POST"])
