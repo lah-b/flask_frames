@@ -13,4 +13,3 @@ def home():
 @app.route("/about")
 def about():
     return "About"
-    # return render_template("frame2.html", var1="NICE VAR BRO")
