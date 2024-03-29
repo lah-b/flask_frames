@@ -31,3 +31,8 @@ def parse_request():
         },
     }
     return jsonify({"name": f"your name is {render_string}"}), 200
+
+
+@app.route("/mint-post-callback", methods=["POST"])
+def parse_request():
+    return render_template("about.html"), 200
