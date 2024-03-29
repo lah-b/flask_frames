@@ -12,7 +12,7 @@ def is_w3_connected():
         abi=CONTRACT_ABI
     )
     mint_price = my_contract.functions.mintPrice().call()
-    build_tx = my_contract.functions.mintPill().build_transaction({"from": acct2.address, "value": mint_price})
+    # build_tx = my_contract.functions.mintPill().build_transaction({"from": acct2.address, "value": mint_price})
 
-    tx_data = build_tx['data']
-    return tx_data
+    # tx_data = build_tx['data']
+    return mint_price
