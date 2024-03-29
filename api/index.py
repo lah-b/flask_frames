@@ -24,7 +24,9 @@ def mint_post():
     print("NICE CLICK")
     print(post_data)
     user_acct = post_data["untrustedData"]["address"]
+    print(user_acct + " IS THE ADDRESS")
     tx_data = get_tx_data(user_acct)
+    print(tx_data + " IS THE TX DATA")
     data = {
         "chainId": "eip155:8453",
         "method": "eth_sendTransaction",
