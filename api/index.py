@@ -21,4 +21,4 @@ def parse_request():
     post_data = request.json  # Assuming JSON data is posted
     # Process the post_data
     render_string = post_data["name"]
-    return f"Hello, {render_string}"
+    return jsonify({"name": render_string})
