@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    # w3_cnnected = is_w3_connected()
-    return render_template("homePage.html", name="Dawg", w3_connect="yessir")
+    w3_response = is_w3_connected()
+    return render_template("homePage.html", name="Dawg", w3_connect=w3_response)
 
 
 @app.route("/about")
