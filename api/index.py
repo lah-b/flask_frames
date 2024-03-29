@@ -43,5 +43,6 @@ def mint_post():
 def mint_post_callback():
     post_data = request.json
     print(post_data)
+    tx_hash = post_data["untrustedData"]["transactionId"]
 
-    return render_template("frame2.html"), 200
+    return render_template("frame2.html", tx_hash=tx_hash), 200
