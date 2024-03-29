@@ -21,7 +21,9 @@ def about():
 @app.route("/mint-post", methods=["POST"])
 def mint_post():
     post_data = request.json
-    user_acct = post_data["interactor"]
+    print("NICE CLICK")
+    print(post_data)
+    user_acct = post_data["body"]["interactor"]["verified_accounts"][0]
     tx_data = get_tx_data(user_acct)
     data = {
         "chainId": "eip155:10",
