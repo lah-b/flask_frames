@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 from .web3_test import is_w3_connected
 
@@ -13,3 +13,10 @@ def home():
 @app.route("/about")
 def about():
     return render_template("about.html")
+
+@app.route('/mint_post', methods=['POST'])
+def parse_request():
+    post_data = request.json  # Assuming JSON data is posted
+    # Process the post_data
+    render_string = post_data['name']
+    return f"your name is {render_string}"
