@@ -30,4 +30,4 @@ def parse_request():
             value: "984316556204476",
         },
     }
-    return jsonify(data), 200
+    return jsonify(data)
