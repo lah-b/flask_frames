@@ -30,4 +30,4 @@ def parse_request():
             "value": "984316556204476",
         },
     }
-    return jsonify({"name": data})
+    return jsonify({"name": render_string})
