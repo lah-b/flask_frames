@@ -1,10 +1,8 @@
 from flask import Flask, render_template
 
-from web3_test import is_w3_connected
+from .web3_test import is_w3_connected
 
 app = Flask(__name__)
-
-
 
 @app.route("/")
 def home():
