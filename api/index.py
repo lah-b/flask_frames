@@ -14,7 +14,7 @@ def home():
 def about():
     return render_template("about.html")
 
-@app.route('/mint_post', methods=['POST'])
+@app.route('/mint-post', methods=['POST'])
 def parse_request():
     post_data = request.json  # Assuming JSON data is posted
     # Process the post_data
