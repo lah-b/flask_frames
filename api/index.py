@@ -13,8 +13,8 @@ def is_w3_connected():
 
 @app.route("/")
 def home():
-    w3_response = is_w3_connected()
-    return render_template("homePage.html", name="Dawg", w3_connect=w3_response)
+    # w3_response = is_w3_connected()
+    return render_template("homePage.html", name="Dawg", w3_connect="yes maam")
 
 
 @app.route("/about")
