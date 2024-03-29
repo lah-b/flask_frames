@@ -17,7 +17,7 @@ def about():
 
 
 @app.route("/mint-post", methods=["POST"])
-def parse_request():
+def mint_post():
     post_data = request.json  # Assuming JSON data is posted
     # Process the post_data
     render_string = post_data["name"]
@@ -34,5 +34,5 @@ def parse_request():
 
 
 @app.route("/mint-post-callback", methods=["POST"])
-def parse_request():
+def mint_post_callback():
     return render_template("about.html"), 200
