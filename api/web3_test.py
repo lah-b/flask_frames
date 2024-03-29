@@ -11,5 +11,8 @@ def is_w3_connected():
         address="0xD09d72031Ce8212efD8928F1A3814E7F8da0fDfD",
         abi=CONTRACT_ABI
     )
-    contract_data = my_contract.functions.mintPrice().call()
-    return contract_data
+    mint_price = my_contract.functions.mintPrice().call()
+    build_tx = my_contract.functions.mintPill().build_transaction({"from": acct2.address, "value": mint_price})
+
+    tx_data = build_tx['data']
+    return tx_data

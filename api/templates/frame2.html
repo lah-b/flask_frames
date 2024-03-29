@@ -1,0 +1,32 @@
+<!--BOILERPLATE HTML-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HOMEPAGE</title>
+    <meta
+      property="og:image"
+      content="{{ url_for('static', filename='start.png', _external=True) }}"
+    />
+
+    <meta property="fc:frame" content="vNext" />
+    <meta
+      property="fc:frame:image"
+      content="{{ url_for('static', filename='start.png', _external=True) }}"
+    />
+    <meta property="fc:frame:button:1" content="chatgpt" />
+    <meta property="fc:frame:button:1:action" content="link" />
+    <meta
+      property="fc:frame:button:1:target"
+      content="https://chat.openai.com"
+    />
+  </head>
+  <body>
+    <p>NICE ABOUT {{ var1 }}</p>
+
+    <a href="/about">About</a>
+    <img
+      src="{{ url_for('static', filename='start.png') }}"
+      alt="Description of the image"
+    />
+  </body>
+</html>
