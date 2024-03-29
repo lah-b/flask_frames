@@ -23,7 +23,7 @@ def mint_post():
     post_data = request.json
     print("NICE CLICK")
     print(post_data)
-    user_acct = post_data["body"]["interactor"]["verified_accounts"][0]
+    user_acct = post_data["untrustedData"]["address"]
     tx_data = get_tx_data(user_acct)
     data = {
         "chainId": "eip155:10",
