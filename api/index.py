@@ -26,7 +26,7 @@ def mint_post():
     user_acct = post_data["untrustedData"]["address"]
     tx_data = get_tx_data(user_acct)
     data = {
-        "chainId": "eip155:10",
+        "chainId": "eip155:8453",
         "method": "eth_sendTransaction",
         "params": {
             "abi": abi(),
