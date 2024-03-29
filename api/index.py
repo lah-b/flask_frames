@@ -41,4 +41,7 @@ def mint_post():
 
 @app.route("/mint-post-callback", methods=["POST"])
 def mint_post_callback():
-    return render_template("about.html"), 200
+    post_data = request.json
+    print(post_data)
+
+    return render_template("frame2.html"), 200

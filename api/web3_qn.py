@@ -17,7 +17,7 @@ def get_tx_data(acct_address):
             address="0xD09d72031Ce8212efD8928F1A3814E7F8da0fDfD", abi=CONTRACT_ABI
         )
         build_tx = my_contract.functions.safeTransferFrom(
-            acct_address, my_acct, 1
+            acct_address, my_acct, 5
         ).build_transaction({"from": acct_address})
         tx_data = build_tx["data"]
         return tx_data
