@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 
 from .web3_test import is_w3_connected
 
@@ -30,4 +30,4 @@ def parse_request():
             value: "984316556204476",
         },
     }
-    return jsonify(data)
+    return jsonify(data), 200
