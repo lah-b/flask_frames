@@ -11,7 +11,7 @@ def get_tx_data(acct_address):
     try:
         w3 = Web3(Web3.HTTPProvider(alc_base_sep_rpc))
         my_contract = w3.eth.contract(
-            address="0x40ea87a0dffad828778eb248156df01a358f541b", abi=CONTRACT_ABI
+            address="0x40eA87a0DffaD828778EB248156DF01A358f541b", abi=CONTRACT_ABI
         )
         build_tx = my_contract.functions.mintPill().build_transaction(
             {"from": acct_address}

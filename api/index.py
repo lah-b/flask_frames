@@ -26,7 +26,7 @@ def sep_mint_post():
         "method": "eth_sendTransaction",
         "params": {
             "abi": sep_abi(),
-            "to": "0x12eb6Eb818C485eEc3a5fFa52860686802401aCA",
+            "to": "0x40eA87a0DffaD828778EB248156DF01A358f541b",
             "data": tx_data,
         },
     }
