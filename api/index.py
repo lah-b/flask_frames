@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 from .web3_qn import get_tx_data
 
-from .abi import abi
+from .abi import abi, sep_abi
 
 app = Flask(__name__)
 
@@ -66,10 +66,10 @@ def sep_mint_post():
         "chainId": "eip155:84532",
         "method": "eth_sendTransaction",
         "params": {
-            "abi": abi(),
+            "abi": sep_abi(),
             "to": "0x12eb6Eb818C485eEc3a5fFa52860686802401aCA",
             "data": tx_data,
-            "value": 5000000000000000,
+            "value": str(5000000000000000),
         },
     }
     return jsonify(data), 200
