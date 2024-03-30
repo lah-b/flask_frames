@@ -13,15 +13,21 @@
       property="fc:frame:image"
       content="{{ url_for('static', filename='pill_bg.png', _external=True) }}"
     />
-
-    <meta property="fc:frame:button:1" content="SEP MINT" />
-    <meta property="fc:frame:button:1:action" content="tx" />
+    <meta property="fc:frame:button:1" content="GET SEP ETH" />
+    <meta property="fc:frame:button:1:action" content="link" />
     <meta
       property="fc:frame:button:1:target"
+      content="https://www.alchemy.com/faucets/base-sepolia"
+    />
+
+    <meta property="fc:frame:button:2" content="SEP MINT" />
+    <meta property="fc:frame:button:2:action" content="tx" />
+    <meta
+      property="fc:frame:button:2:target"
       content="https://flask-frames.vercel.app/sep-mint-post"
     />
     <meta
-      property="fc:frame:button:1:post_url"
+      property="fc:frame:button:2:post_url"
       content="https://flask-frames.vercel.app/sep-mint-post-callback"
     />
   </head>
