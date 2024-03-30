@@ -48,7 +48,7 @@ def mint_post_callback():
 
 
 @app.route("/sep")
-def home():
+def sep_home():
     w3_response = "No func"
     return render_template("homePage.html", name="Dawg", w3_connect=w3_response)
 
