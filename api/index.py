@@ -47,7 +47,13 @@ def mint_post_callback():
     return render_template("scanFrame.html", tx_hash=tx_hash), 200
 
 
-@app.route("/sep_mint-post", methods=["POST"])
+@app.route("/sep")
+def home():
+    w3_response = "No func"
+    return render_template("homePage.html", name="Dawg", w3_connect=w3_response)
+
+
+@app.route("/sep-mint-post", methods=["POST"])
 def sep_mint_post():
     post_data = request.json
     print("NICE CLICK")
@@ -69,7 +75,7 @@ def sep_mint_post():
     return jsonify(data), 200
 
 
-@app.route("/sep_mint-post-callback", methods=["POST"])
+@app.route("/sep-mint-post-callback", methods=["POST"])
 def sep_mint_post_callback():
     post_data = request.json
     print(post_data)
