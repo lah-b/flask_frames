@@ -61,7 +61,8 @@ def sep_mint_post():
     user_acct = post_data["untrustedData"]["address"]
     print(user_acct + " IS THE ADDRESS")
     tx_data = get_tx_data(user_acct)
-    print(tx_data + " IS THE TX DATA")
+    print("TX DATA")
+    print(tx_data)
     data = {
         "chainId": "eip155:84532",
         "method": "eth_sendTransaction",

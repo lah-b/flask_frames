@@ -13,6 +13,7 @@ acct_2 = "0x585a6b5E1fA425eAEd742adb23607C6b8342949F"
 def get_tx_data(acct_address):
     try:
         w3 = Web3(Web3.HTTPProvider(alc_base_sep_rpc))
+        print(f"Connected to base sep {w3.is_connected()}")
         my_contract = w3.eth.contract(
             address="0x12eb6Eb818C485eEc3a5fFa52860686802401aCA", abi=CONTRACT_ABI
         )
