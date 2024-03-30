@@ -1,0 +1,28 @@
+<!--BOILERPLATE HTML-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SEP PAGE</title>
+    <meta
+      property="og:image"
+      content="{{ url_for('static', filename='boxes.png', _external=True) }}"
+    />
+
+    <meta property="fc:frame" content="vNext" />
+    <meta
+      property="fc:frame:image"
+      content="{{ url_for('static', filename='boxes.png', _external=True) }}"
+    />
+    <meta property="fc:frame:button:1" content="VIEW TX" />
+    <meta property="fc:frame:button:1:action" content="link" />
+    <meta
+      property="fc:frame:button:1:target"
+      content="https://sepolia.basescan.org/tx{{ tx_hash }}"
+    />
+  </head>
+  <body>
+    <p>NICE SEP</p>
+
+    <a href="/">HOME</a>
+  </body>
+</html>

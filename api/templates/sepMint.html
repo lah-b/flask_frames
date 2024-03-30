@@ -1,0 +1,34 @@
+<!--BOILERPLATE HTML-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SEPPAGE</title>
+    <meta
+      property="og:image"
+      content="{{ url_for('static', filename='circles.png', _external=True) }}"
+    />
+
+    <meta property="fc:frame" content="vNext" />
+    <meta
+      property="fc:frame:image"
+      content="{{ url_for('static', filename='circles.png', _external=True) }}"
+    />
+
+    />
+    <meta property="fc:frame:button:1" content="MINT" />
+    <meta property="fc:frame:button:1:action" content="tx" />
+    <meta
+      property="fc:frame:button:1:target"
+      content="https://flask-frames.vercel.app/sep-mint-post"
+    />
+    <meta
+      property="fc:frame:button:1:post_url"
+      content="https://flask-frames.vercel.app/sep-mint-post-callback"
+    />
+  </head>
+  <body>
+    <p>SEP PAGE</p>
+
+    <a href="/">HOME</a>
+  </body>
+</html>
