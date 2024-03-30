@@ -13,16 +13,21 @@
       property="fc:frame:image"
       content="{{ url_for('static', filename='boxes.png', _external=True) }}"
     />
-    <meta property="fc:frame:button:1" content="VIEW TX" />
+    <meta property="fc:frame:button:1" content="TX ON BASESCAN" />
     <meta property="fc:frame:button:1:action" content="link" />
     <meta
       property="fc:frame:button:1:target"
       content="https://sepolia.basescan.org/tx{{ tx_hash }}"
     />
+    <meta property="fc:frame:button:2" content="NFT ON OPENSEA" />
+    <meta property="fc:frame:button:2:action" content="link" />
+    <meta
+      property="fc:frame:button:2:target"
+      content="https://testnets.opensea.io/collection/two-pills"
+    />
   </head>
   <body>
     <p>NICE SEP</p>
-
     <a href="/">HOME</a>
   </body>
 </html>

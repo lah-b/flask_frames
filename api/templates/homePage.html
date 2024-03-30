@@ -2,42 +2,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HOMEPAGE</title>
-    <meta
-      property="og:image"
-      content="{{ url_for('static', filename='pill_bg.png', _external=True) }}"
-    />
-
-    <meta property="fc:frame" content="vNext" />
-    <meta
-      property="fc:frame:image"
-      content="{{ url_for('static', filename='pill_bg.png', _external=True) }}"
-    />
-    <meta property="fc:frame:button:1" content="chatgpt" />
-    <meta property="fc:frame:button:1:action" content="link" />
-    <meta
-      property="fc:frame:button:1:target"
-      content="https://chat.openai.com"
-    />
-    <meta property="fc:frame:button:2" content="MINT" />
-    <meta property="fc:frame:button:2:action" content="tx" />
-    <meta
-      property="fc:frame:button:2:target"
-      content="https://flask-frames.vercel.app/mint-post"
-    />
-    <meta
-      property="fc:frame:button:2:post_url"
-      content="https://flask-frames.vercel.app/mint-post-callback"
-    />
+    <title>Homepage</title>
   </head>
   <body>
-    <p>NICE PAGE {{ name }}</p>
-    <p>w3 is connected {{ w3_connect }}</p>
-
-    <a href="/about">About</a>
-    <img
-      src="{{ url_for('static', filename='start.png') }}"
-      alt="Description of the image"
-    />
+    <p>Find frames on warpcast @lahey</p>
   </body>
 </html>
