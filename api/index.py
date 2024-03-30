@@ -50,7 +50,7 @@ def mint_post_callback():
 @app.route("/sep")
 def sep_home():
     w3_response = "No func"
-    return render_template("homePage.html", name="Dawg", w3_connect=w3_response)
+    return render_template("sepHomePage.html", name="Dawg", w3_connect=w3_response)
 
 
 @app.route("/sep-mint-post", methods=["POST"])
