@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from .web3_qn import get_tx_data
-
+from .mint_sepolia import get_tx_data
 from .abi import sep_abi
 
 app = Flask(__name__)
@@ -20,7 +19,7 @@ def sep_home():
 def sep_mint_post():
     post_data = request.json
     user_acct = post_data["untrustedData"]["address"]
-    print(user_acct + " IS THE ADDRESS")
+
     tx_data = get_tx_data(user_acct)
     data = {
         "chainId": "eip155:84532",
