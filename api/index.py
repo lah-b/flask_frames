@@ -9,7 +9,7 @@ app = Flask(__name__)
 def home():
     page = render_template("homePage.html")
     resp = make_response(page)
-    resp.headers["cache-control"] = "max-age=360"
+    resp.headers["cache-control"] = "public, max-age=360"
 
     return resp
 
