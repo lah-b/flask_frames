@@ -9,16 +9,16 @@ app = Flask(__name__)
 def home():
     page = render_template("homePage.html")
     resp = make_response(page)
-    resp.headers["cache-control"] = "public, max-age=360"
+    resp.headers["cache-control"] = "max-age=360"
 
     return resp
 
 
 @app.route("/about")
 def home():
-    page = "<a href=" / ">Home</a>"
+    page = render_template("aboutPage.html")
     resp = make_response(page)
-    resp.headers["cache-control"] = "public, max-age=360"
+    resp.headers["cache-control"] = "max-age=360"
     return resp
 
 
