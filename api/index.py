@@ -51,3 +51,8 @@ def sep_mint_post_callback():
     print(post_data)
     tx_hash = post_data["untrustedData"]["transactionId"]
     return render_template("sepScanFrame.html", tx_hash=tx_hash), 200
+
+
+@app.route("/gh")
+def gh():
+    return render_template("gh.html")
