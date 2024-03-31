@@ -15,7 +15,7 @@ def home():
 
 
 @app.route("/about")
-def home():
+def about():
     page = render_template("aboutPage.html")
     resp = make_response(page)
     resp.headers["cache-control"] = "max-age=360"
