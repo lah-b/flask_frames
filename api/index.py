@@ -14,6 +14,14 @@ def home():
     return resp
 
 
+@app.route("/about")
+def home():
+    page = "<a href=" / ">Home</a>"
+    resp = make_response(page)
+    resp.headers["cache-control"] = "public, max-age=360"
+    return resp
+
+
 @app.route("/sep-mint")
 def sep_home():
     return render_template("sepMintFrame.html")
