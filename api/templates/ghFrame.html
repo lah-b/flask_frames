@@ -1,0 +1,28 @@
+<!--BOILERPLATE HTML-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GH Repo Frame</title>
+    <meta
+      property="og:image"
+      content="{{ url_for('static', filename='gh_logo.png', _external=True) }}"
+    />
+
+    <meta property="fc:frame" content="vNext" />
+    <meta
+      property="fc:frame:image"
+      content="{{ url_for('static', filename='gh_logo.png', _external=True) }}"
+    />
+    <meta property="fc:frame:button:1" content="REPO" />
+    <meta property="fc:frame:button:1:action" content="link" />
+    <meta
+      property="fc:frame:button:1:target"
+      content="https://github.com/lah-b/flask_frames"
+    />
+  </head>
+  <body>
+    <p>GH REPO</p>
+    <a href="/">HOME</a>
+    <a href="https://warpcast.com/lahey">WARPCAST</a>
+  </body>
+</html>

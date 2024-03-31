@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, make_response
 from .mint_sepolia import get_tx_data
 from .abi import sep_abi
 
@@ -7,7 +7,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("homePage.html")
+    page = render_template("homePage.html")
+    resp = make_response(page)
+    resp.headers["cache-control"] = "max-age=360"
+
+    return resp
 
 
 @app.route("/sep-mint")

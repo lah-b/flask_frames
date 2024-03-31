@@ -1,3 +1,6 @@
 FRAMES FOR FARCASTER
 
-lahey on farcaster
+@lahey on farcaster
+
+Deployed on vercel
+
