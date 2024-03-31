@@ -1,0 +1,30 @@
+<!--BOILERPLATE HTML-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sep Mint Frace</title>
+    <meta
+      property="og:image"
+      content="{{ url_for('static', filename='boxes.png', _external=True) }}"
+    />
+
+    <meta property="fc:frame" content="vNext" />
+
+    <meta
+      property="fc:frame:image"
+      content="{{ url_for('static', filename='boxes.png', _external=True) }}"
+    />
+    <meta property="fc:frame:image:aspect_ratio" content="1:1" />
+
+    <meta property="fc:frame:button:1" content="SUBMIT TEXT" />
+    <meta property="fc:frame:button:1:post_url" content="post" />
+    <meta
+      property="fc:frame:button:1:target"
+      content="https://www.alchemy.com/faucets/base-sepolia"
+    />
+  </head>
+  <body>
+    <a href="/">HOME</a>
+    <a href="https://warpcast.com/lahey">WARPCAST</a>
+  </body>
+</html>

@@ -55,4 +55,4 @@ def sep_mint_post_callback():
 
 @app.route("/gh")
 def gh():
-    return render_template("gh.html")
+    return render_template("ghFrame.html")
